@@ -1,6 +1,18 @@
 ---
 label: Test template
 hide_body: false
+display_field: text-key
 fields:
 - type: text
 - type: text
+- type: text
+  name: test
+  label: test
+  description: test
+- type: text
+  name: text-key
+  label: test
+  description: test
+  hidden: false
+  config:
+    required: true
